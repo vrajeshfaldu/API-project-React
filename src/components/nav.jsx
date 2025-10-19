@@ -33,6 +33,7 @@ function Nav() {
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="/home" data-bs-toggle="dropdown">Currency Converter</Link>
             <ul className="dropdown-menu">
+              <li><Link className="dropdown-item" to="/home">Home</Link></li>
               <li><Link className="dropdown-item" to="/embeddable">Embeddable Converter</Link></li>
               <li><Link className="dropdown-item" to="/historical">Historical Converter</Link></li>
             </ul>
@@ -59,7 +60,7 @@ function Nav() {
             <Link className="nav-link dropdown-toggle" to="#" data-bs-toggle="dropdown">About Us</Link>
             <ul className="dropdown-menu">
               <li><Link className="dropdown-item" to="/partner">Become a Partner</Link></li>
-              <li><Link className="dropdown-item" to="/blog">Our Blogs</Link></li>
+              <li><Link className="dropdown-item" to="/ourblog">Our Blogs</Link></li>
               <li><Link className="dropdown-item" to="/contact">Contact Us</Link></li>
               <li><Link className="dropdown-item" to="/Faqs">FAQs</Link></li>
             </ul>

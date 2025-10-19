@@ -19,6 +19,7 @@ import Corporate from './components/corporate';
 import Developer from './components/developer';
 import Individual from './components/individual';
 import Logo from './components/logo';
+import Ourblog from './components/ourblog';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -29,6 +30,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/EN' element={<EN />} />
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path='/embeddable' element={<Embeddable />} />
           <Route path='/historical' element={<Historical />} />
           <Route path='/free' element={<Free/>} />
@@ -42,6 +44,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='/partner' element={<Partner/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='/logo' element={<Logo/>} />
+          <Route path='/ourblog' element={<Ourblog/>} />
  
         </Route>
       </Routes>
